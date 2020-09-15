@@ -1,0 +1,6 @@
+module Pods_TapTap {
+  umbrella header "Pods-TapTap-umbrella.h"
+
+  export *
+  module * { export * }
+}

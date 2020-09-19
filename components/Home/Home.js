@@ -1,7 +1,12 @@
 import React from 'react';
 import { StyleSheet, View, Text } from 'react-native';
+import { TouchableOpacity } from 'react-native-gesture-handler';
+import { Actions } from 'react-native-router-flux';
 
 const Home = () => {
+	const goToPlayAlone = () => Actions.playAlone();
+	const goToPrepareToMultiPlayer = () => Actions.prepareToMultiPlayer();
+
 	return (
 		<>
 			<View style={styles.wrapper}>
@@ -9,8 +14,14 @@ const Home = () => {
 					<Text style={styles.TapTap}>TapTap!</Text>
 				</View>
 				<View style={styles.optionChooseWrapper}>
-					<Text style={styles.optionChoose}>Play alone</Text>
-					<Text style={styles.optionChoose}>Play with friend</Text>
+					<TouchableOpacity onPress={goToPlayAlone}>
+						<Text style={styles.optionChoose}>Play alone</Text>
+					</TouchableOpacity>
+					<TouchableOpacity onPress={goToPrepareToMultiPlayer}>
+						<Text style={styles.optionChoose}>
+							Play with friend
+						</Text>
+					</TouchableOpacity>
 				</View>
 				<View style={styles.footerWrapper}>
 					<Text style={styles.footer}>Made by Piotr Cichowlas</Text>
@@ -28,7 +39,6 @@ const styles = StyleSheet.create({
 		backgroundColor: 'red',
 		justifyContent: 'space-between',
 	},
-	textWrapper: {},
 	TapTap: {
 		fontSize: 90,
 		paddingTop: 80,

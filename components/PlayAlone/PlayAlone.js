@@ -160,6 +160,7 @@ const styles = StyleSheet.create({
 	},
 	text: {
 		alignSelf: 'center',
+		textAlign: 'center'
 		fontSize: 40,
 		color: 'white',
 		fontWeight: '500',

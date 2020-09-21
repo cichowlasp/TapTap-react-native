@@ -27,7 +27,9 @@ const PrepareToMultiPlayer = () => {
 	return (
 		<>
 			<View style={styles.wrapper}>
-				<Text style={styles.time}>{time}</Text>
+				<Text allowFontScaling={false} style={styles.time}>
+					{time}
+				</Text>
 			</View>
 		</>
 	);

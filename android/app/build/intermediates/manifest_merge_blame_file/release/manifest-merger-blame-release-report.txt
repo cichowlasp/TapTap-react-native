@@ -15,7 +15,7 @@
 11-->/Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:4:22-64
 12
 13    <application
-13-->/Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:6:5-25:19
+13-->/Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:6:5-27:19
 14        android:name="com.taptap.MainApplication"
 14-->/Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:7:7-38
 15        android:allowBackup="false"
@@ -31,7 +31,7 @@
 20        android:theme="@style/AppTheme" >
 20-->/Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:12:7-38
 21        <activity
-21-->/Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:13:7-23:18
+21-->/Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:13:7-25:18
 22            android:name="com.taptap.MainActivity"
 22-->/Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:14:9-37
 23            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
@@ -40,22 +40,24 @@
 24-->/Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:15:9-41
 25            android:launchMode="singleTask"
 25-->/Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:17:9-40
-26            android:windowSoftInputMode="adjustResize" >
-26-->/Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:18:9-51
-27            <intent-filter>
-27-->/Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:19:9-22:25
-28                <action android:name="android.intent.action.MAIN" />
-28-->/Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:20:13-65
-28-->/Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:20:21-62
-29
-30                <category android:name="android.intent.category.LAUNCHER" />
-30-->/Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:21:13-73
-30-->/Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:21:23-70
-31            </intent-filter>
-32        </activity>
-33        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-33-->/Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:24:7-84
-33-->/Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:24:17-81
-34    </application>
-35
-36</manifest>
+26            android:screenOrientation="portrait"
+26-->/Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:18:9-45
+27            android:windowSoftInputMode="adjustResize" >
+27-->/Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:19:9-51
+28            <intent-filter>
+28-->/Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:21:9-24:25
+29                <action android:name="android.intent.action.MAIN" />
+29-->/Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:22:13-65
+29-->/Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:22:21-62
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->/Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:23:13-73
+31-->/Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:23:23-70
+32            </intent-filter>
+33        </activity>
+34        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+34-->/Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:26:7-84
+34-->/Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:26:17-81
+35    </application>
+36
+37</manifest>

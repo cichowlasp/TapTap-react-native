@@ -30,7 +30,9 @@ const PlayWithFriend = () => {
 		<>
 			<View style={styles.wrapper}>
 				<TouchableHighlight style={styles.exitButton} onPress={exit}>
-					<Text style={styles.exit}>EXIT</Text>
+					<Text allowFontScaling={false} style={styles.exit}>
+						EXIT
+					</Text>
 				</TouchableHighlight>
 				<View style={styles.backgroundWrapper}>
 					<ButtonRed

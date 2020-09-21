@@ -5,16 +5,20 @@ import { TouchableOpacity } from 'react-native-gesture-handler';
 const ButtonRed = ({ redScore, disableButton, onPressRed }) => {
 	return (
 		<View style={styles.redWrapper}>
-			<Text style={styles.score}>{redScore}</Text>
+			<Text allowFontScaling={false} style={styles.score}>
+				{redScore}
+			</Text>
 			<View style={styles.redButtonWrapper}>
-				<View
+				<TouchableOpacity
 					disabled={disableButton}
-					onTouchStart={onPressRed}
+					onPressIn={onPressRed}
 					style={styles.button}>
 					<View style={styles.blueCircle}>
-						<Text style={styles.Tap}>Tap!</Text>
+						<Text allowFontScaling={false} style={styles.Tap}>
+							Tap!
+						</Text>
 					</View>
-				</View>
+				</TouchableOpacity>
 			</View>
 		</View>
 	);

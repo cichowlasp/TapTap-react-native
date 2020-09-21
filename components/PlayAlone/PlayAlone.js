@@ -1,11 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import {
-	StyleSheet,
-	View,
-	Text,
-	TouchableOpacity,
-	PixelRatio,
-} from 'react-native';
+import { StyleSheet, View, Text } from 'react-native';
+import { TouchableOpacity } from 'react-native-gesture-handler';
 import { Actions } from 'react-native-router-flux';
 
 const PlayAlone = () => {
@@ -82,23 +77,33 @@ const PlayAlone = () => {
 		<>
 			<View style={styles.wrapper}>
 				<View>
-					<Text style={styles.scoreText}>SCORE</Text>
-					<Text style={styles.score}>{score}</Text>
+					<Text allowFontScaling={false} style={styles.scoreText}>
+						SCORE
+					</Text>
+					<Text allowFontScaling={false} style={styles.score}>
+						{score}
+					</Text>
 				</View>
 				<View>
-					<Text style={styles.text}>{text}</Text>
+					<Text allowFontScaling={false} style={styles.text}>
+						{text}
+					</Text>
 				</View>
 				<View>
 					<TouchableOpacity onPress={exit}>
-						<Text style={styles.exit}>EXIT</Text>
+						<Text allowFontScaling={false} style={styles.exit}>
+							EXIT
+						</Text>
 					</TouchableOpacity>
 				</View>
 				<View style={styles.buttonWrapper}>
 					<TouchableOpacity
 						style={styles.button}
-						onPress={updateScore}>
+						onPressIn={updateScore}>
 						<View style={styles.blueCircle}>
-							<Text style={styles.Tap}>Tap!</Text>
+							<Text allowFontScaling={false} style={styles.Tap}>
+								Tap!
+							</Text>
 						</View>
 					</TouchableOpacity>
 				</View>

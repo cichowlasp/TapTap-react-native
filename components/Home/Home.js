@@ -10,20 +10,30 @@ const Home = () => {
 		<>
 			<View style={styles.wrapper}>
 				<View style={styles.textWrapper}>
-					<Text style={styles.TapTap}>TapTap!</Text>
+					<Text style={styles.TapTap} allowFontScaling={false}>
+						TapTap!
+					</Text>
 				</View>
 				<View style={styles.optionChooseWrapper}>
 					<TouchableOpacity onPress={goToPlayAlone}>
-						<Text style={styles.optionChoose}>Play alone</Text>
+						<Text
+							allowFontScaling={false}
+							style={styles.optionChoose}>
+							Play alone
+						</Text>
 					</TouchableOpacity>
 					<TouchableOpacity onPress={goToPrepareToMultiPlayer}>
-						<Text style={styles.optionChoose}>
+						<Text
+							allowFontScaling={false}
+							style={styles.optionChoose}>
 							Play with friend
 						</Text>
 					</TouchableOpacity>
 				</View>
 				<View style={styles.footerWrapper}>
-					<Text style={styles.footer}>Made by Piotr Cichowlas</Text>
+					<Text allowFontScaling={false} style={styles.footer}>
+						Made by Piotr Cichowlas
+					</Text>
 				</View>
 			</View>
 		</>

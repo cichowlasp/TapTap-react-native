@@ -18,10 +18,14 @@ const MultiPlayerEndScreen = ({ color }) => {
 					alignItems: 'center',
 				}}>
 				<View>
-					<Text style={styles.Text}>{color} player won</Text>
+					<Text allowFontScaling={false} style={styles.Text}>
+						{color} player won
+					</Text>
 				</View>
 				<TouchableOpacity style={styles.exitButton} onPressIn={exit}>
-					<Text style={styles.exit}>EXIT</Text>
+					<Text allowFontScaling={false} style={styles.exit}>
+						EXIT
+					</Text>
 				</TouchableOpacity>
 			</View>
 		</>

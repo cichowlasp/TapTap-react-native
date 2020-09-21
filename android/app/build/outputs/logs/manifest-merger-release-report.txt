@@ -1,12 +1,14 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:1:1-27:12
+ADDED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:1:1-29:12
+INJECTED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:1:1-29:12
+INJECTED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:1:1-29:12
+INJECTED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:1:1-29:12
 MERGED from [hermes-release.aar] /Users/cichowlasp/.gradle/caches/transforms-2/files-2.1/177e8e9fb7e3813a4879bed2a109693b/jetified-hermes-release/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-community_masked-view] /Users/cichowlasp/Desktop/TapTap-react-native/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-gesture-handler] /Users/cichowlasp/Desktop/TapTap-react-native/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-reanimated] /Users/cichowlasp/Desktop/TapTap-react-native/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-safe-area-context] /Users/cichowlasp/Desktop/TapTap-react-native/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] /Users/cichowlasp/Desktop/TapTap-react-native/node_modules/react-native-screens/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.63.2] /Users/cichowlasp/.gradle/caches/transforms-2/files-2.1/494b1545ca58ae56b74658ee98e6b570/jetified-react-native-0.63.2/AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/cichowlasp/.gradle/caches/transforms-2/files-2.1/9c84055754f1c87eff14f587bd78fd99/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -47,20 +49,20 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/cichowlasp
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/cichowlasp/.gradle/caches/transforms-2/files-2.1/7c9fd3ba690abcfb93720c866c223859/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/cichowlasp/.gradle/caches/transforms-2/files-2.1/9a86eb85674ec9ce8d1b3a259725518b/jetified-fbcore-2.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.soloader:annotation:0.8.2] /Users/cichowlasp/.gradle/caches/transforms-2/files-2.1/fc766185ed7e4861c7502db25bf01dd6/jetified-annotation-0.8.2/AndroidManifest.xml:2:1-13:12
-INJECTED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:1:1-29:12
+INJECTED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:1:1-29:12
+INJECTED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:1:1-29:12
 	package
 		ADDED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:2:3-23
 		INJECTED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:1:1-27:12
+		ADDED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:1:1-29:12
 		INJECTED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:1:1-27:12
+		ADDED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:1:1-29:12
 		INJECTED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:1:11-69
@@ -69,7 +71,7 @@ ADDED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/An
 	android:name
 		ADDED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:4:22-64
 application
-ADDED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:6:5-25:19
+ADDED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:6:5-27:19
 MERGED from [com.facebook.react:react-native:0.63.2] /Users/cichowlasp/.gradle/caches/transforms-2/files-2.1/494b1545ca58ae56b74658ee98e6b570/jetified-react-native-0.63.2/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.react:react-native:0.63.2] /Users/cichowlasp/.gradle/caches/transforms-2/files-2.1/494b1545ca58ae56b74658ee98e6b570/jetified-react-native-0.63.2/AndroidManifest.xml:11:5-20
 MERGED from [com.google.android.material:material:1.1.0] /Users/cichowlasp/.gradle/caches/transforms-2/files-2.1/116c92be44f96604e1209df60e1d9ac4/material-1.1.0/AndroidManifest.xml:22:5-20
@@ -97,41 +99,47 @@ MERGED from [com.facebook.soloader:annotation:0.8.2] /Users/cichowlasp/.gradle/c
 	android:name
 		ADDED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:7:7-38
 activity#com.taptap.MainActivity
-ADDED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:13:7-23:18
+ADDED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:13:7-25:18
+	android:screenOrientation
+		ADDED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:18:9-45
 	android:label
 		ADDED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:15:9-41
 	android:launchMode
 		ADDED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:17:9-40
 	android:windowSoftInputMode
-		ADDED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:18:9-51
+		ADDED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:19:9-51
 	android:configChanges
 		ADDED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:16:9-86
 	android:name
 		ADDED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:14:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:19:9-22:25
+ADDED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:21:9-24:25
 action#android.intent.action.MAIN
-ADDED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:20:13-65
+ADDED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:22:13-65
 	android:name
-		ADDED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:20:21-62
+		ADDED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:22:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:21:13-73
+ADDED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:23:13-73
 	android:name
-		ADDED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:21:23-70
+		ADDED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:23:23-70
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:24:7-84
+ADDED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:26:7-84
 	android:name
-		ADDED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:24:17-81
+		ADDED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml:26:17-81
 uses-sdk
 INJECTED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/cichowlasp/Desktop/TapTap-react-native/android/app/src/main/AndroidManifest.xml
 MERGED from [hermes-release.aar] /Users/cichowlasp/.gradle/caches/transforms-2/files-2.1/177e8e9fb7e3813a4879bed2a109693b/jetified-hermes-release/AndroidManifest.xml:5:5-44
 MERGED from [hermes-release.aar] /Users/cichowlasp/.gradle/caches/transforms-2/files-2.1/177e8e9fb7e3813a4879bed2a109693b/jetified-hermes-release/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-community_masked-view] /Users/cichowlasp/Desktop/TapTap-react-native/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] /Users/cichowlasp/Desktop/TapTap-react-native/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-gesture-handler] /Users/cichowlasp/Desktop/TapTap-react-native/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-gesture-handler] /Users/cichowlasp/Desktop/TapTap-react-native/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-reanimated] /Users/cichowlasp/Desktop/TapTap-react-native/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-reanimated] /Users/cichowlasp/Desktop/TapTap-react-native/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-safe-area-context] /Users/cichowlasp/Desktop/TapTap-react-native/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /Users/cichowlasp/Desktop/TapTap-react-native/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-screens] /Users/cichowlasp/Desktop/TapTap-react-native/node_modules/react-native-screens/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-screens] /Users/cichowlasp/Desktop/TapTap-react-native/node_modules/react-native-screens/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.63.2] /Users/cichowlasp/.gradle/caches/transforms-2/files-2.1/494b1545ca58ae56b74658ee98e6b570/jetified-react-native-0.63.2/AndroidManifest.xml:7:5-9:41

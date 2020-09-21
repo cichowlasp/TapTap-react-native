@@ -5,16 +5,20 @@ import { TouchableOpacity } from 'react-native-gesture-handler';
 const ButtonBlue = ({ onPressBlue, blueScore, disableButton }) => {
 	return (
 		<View style={styles.blueWrapper}>
-			<Text style={styles.score}>{blueScore}</Text>
+			<Text allowFontScaling={false} style={styles.score}>
+				{blueScore}
+			</Text>
 			<View style={styles.blueButtonWrapper}>
-				<View
+				<TouchableOpacity
 					disabled={disableButton}
-					onTouchStart={onPressBlue}
+					onPressIn={onPressBlue}
 					style={styles.blueButton}>
 					<View style={styles.redCircle}>
-						<Text style={styles.Tap}>Tap!</Text>
+						<Text allowFontScaling={false} style={styles.Tap}>
+							Tap!
+						</Text>
 					</View>
-				</View>
+				</TouchableOpacity>
 			</View>
 		</View>
 	);

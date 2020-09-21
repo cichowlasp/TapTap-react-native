@@ -20,7 +20,7 @@ const MultiPlayerEndScreen = ({ color }) => {
 				<View>
 					<Text style={styles.Text}>{color} player won</Text>
 				</View>
-				<TouchableOpacity style={styles.exitButton} onPress={exit}>
+				<TouchableOpacity style={styles.exitButton} onPressIn={exit}>
 					<Text style={styles.exit}>EXIT</Text>
 				</TouchableOpacity>
 			</View>

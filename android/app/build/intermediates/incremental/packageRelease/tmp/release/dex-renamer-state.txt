@@ -1,0 +1,4 @@
+#Mon Sep 21 13:14:07 CEST 2020
+base.0=/Users/cichowlasp/Desktop/TapTap-react-native/android/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

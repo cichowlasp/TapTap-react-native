@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, View, Text, TouchableHighlight } from 'react-native';
+import { TouchableOpacity } from 'react-native-gesture-handler';
 import { Actions } from 'react-native-router-flux';
+import ButtonBlue from './Buttons/ButtonBlue';
+import ButtonRed from './Buttons/ButtonRed';
 
 const PlayWithFriend = () => {
-	const [redScore, setRedScore] = useState(10);
-	const [blueScore, setBlueScore] = useState(10);
+	const [redScore, setRedScore] = useState(100);
+	const [blueScore, setBlueScore] = useState(100);
 	const [disableButton, setDisableButton] = useState(false);
 
 	const exit = () => Actions.home();
@@ -22,6 +25,7 @@ const PlayWithFriend = () => {
 			Actions.multiPlayerEndScreen({ color: 'red' });
 		}
 	}, [blueScore, redScore]);
+
 	return (
 		<>
 			<View style={styles.wrapper}>
@@ -29,32 +33,16 @@ const PlayWithFriend = () => {
 					<Text style={styles.exit}>EXIT</Text>
 				</TouchableHighlight>
 				<View style={styles.backgroundWrapper}>
-					<View style={styles.redWrapper}>
-						<Text style={styles.score}>{redScore}</Text>
-						<View style={styles.redButtonWrapper}>
-							<View
-								pointerEvents={disableButton ? 'none' : 'auto'}
-								onTouchStart={onPressRed}
-								style={styles.button}>
-								<View style={styles.blueCircle}>
-									<Text style={styles.Tap}>Tap!</Text>
-								</View>
-							</View>
-						</View>
-					</View>
-					<View style={styles.blueWrapper}>
-						<Text style={styles.score}>{blueScore}</Text>
-						<View style={styles.blueButtonWrapper}>
-							<View
-								pointerEvents={disableButton ? 'none' : 'auto'}
-								onTouchStart={onPressBlue}
-								style={styles.blueButton}>
-								<View style={styles.redCircle}>
-									<Text style={styles.Tap}>Tap!</Text>
-								</View>
-							</View>
-						</View>
-					</View>
+					<ButtonRed
+						redScore={redScore}
+						disableButton={disableButton}
+						onPressRed={onPressRed}
+					/>
+					<ButtonBlue
+						blueScore={blueScore}
+						disableButton={disableButton}
+						onPressBlue={onPressBlue}
+					/>
 				</View>
 			</View>
 		</>

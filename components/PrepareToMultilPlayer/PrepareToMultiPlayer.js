@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { StyleSheet, View, Text, TouchableHighlight } from 'react-native';
-import { set } from 'react-native-reanimated';
+import { StyleSheet, View, Text } from 'react-native';
 import { Actions } from 'react-native-router-flux';
 
 const PrepareToMultiPlayer = () => {
@@ -13,14 +12,14 @@ const PrepareToMultiPlayer = () => {
 				if (time === 1) {
 					setTime('GO!');
 				}
-			}, 1200);
+			}, 800);
 		}
 		if (countDown) {
-			if (!time && time !== 'GO!') {
+			if (time <= 0 && time !== 'GO!') {
 				setTimeout(() => {
 					setCountDown(false);
 					Actions.playWithFriend();
-				}, 700);
+				}, 400);
 			}
 		}
 	}, [time, countDown]);

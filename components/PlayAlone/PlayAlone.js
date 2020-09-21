@@ -1,6 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { StyleSheet, View, Text, TouchableHighlight } from 'react-native';
-import { TouchableOpacity } from 'react-native-gesture-handler';
+import {
+	StyleSheet,
+	View,
+	Text,
+	TouchableOpacity,
+	PixelRatio,
+} from 'react-native';
 import { Actions } from 'react-native-router-flux';
 
 const PlayAlone = () => {
@@ -17,8 +22,16 @@ const PlayAlone = () => {
 			setText('Nice!');
 		}
 
+		if (score == 88) {
+			setText('HH');
+		}
+
 		if (score == 100) {
 			setText('Are you bored?');
+		}
+
+		if (score == 104) {
+			setText('JD');
 		}
 
 		if (score == 150) {
@@ -31,6 +44,18 @@ const PlayAlone = () => {
 
 		if (score == 666) {
 			setText('Satan?');
+		}
+
+		if (score == 667) {
+			setText('Have you seen text on 666?');
+		}
+
+		if (score == 777) {
+			setText('Heaven?');
+		}
+
+		if (score == 778) {
+			setText('Have you seen text on 777?');
 		}
 
 		if (score == 1000) {
@@ -87,8 +112,8 @@ const styles = StyleSheet.create({
 		display: 'flex',
 		width: '100%',
 		height: '100%',
-		paddingBottom: '40%',
-		paddingTop: '40%',
+		paddingTop: 60,
+		paddingBottom: 60,
 		backgroundColor: 'red',
 		alignContent: 'center',
 		justifyContent: 'space-between',

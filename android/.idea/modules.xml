@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TapTap.iml" filepath="$PROJECT_DIR$/.idea/modules/TapTap.iml" group="TapTap" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="TapTap/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-104803489/react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-104803489/react-native-gesture-handler.iml" group="TapTap/react-native-gesture-handler" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1729555293/react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/1729555293/react-native-reanimated.iml" group="TapTap/react-native-reanimated" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1565710880/react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/1565710880/react-native-screens.iml" group="TapTap/react-native-screens" />
+    </modules>
+  </component>
+</project>

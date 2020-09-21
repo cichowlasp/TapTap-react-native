@@ -1,6 +1,5 @@
 import React from 'react';
-import { StyleSheet, View, Text } from 'react-native';
-import { TouchableOpacity } from 'react-native-gesture-handler';
+import { StyleSheet, View, Text, TouchableOpacity } from 'react-native';
 import { Actions } from 'react-native-router-flux';
 
 const Home = () => {
